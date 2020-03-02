@@ -1,0 +1,60 @@
+body,html{
+    width:100%;
+    margin:auto;
+    background-color: #aaa;
+}
+form{
+    width:100%;
+    max-width: 300px;
+    margin:40px auto;
+    background-color: #eee;
+    padding:5% 3%;
+}
+.icon{
+    position: relative;
+    top:-110px;
+    margin:auto;
+    margin-bottom:-75px;
+    display:block;
+    text-align: center;
+}
+form label{
+    display: block;
+    margin-bottom:5px;
+}
+form input[type=text],form input[type=email]{
+    width:99%;
+    height:30px;
+    margin-bottom: 5px;
+}
+
+form input[type=submit]{
+    display: block;
+    width: 100%;
+    margin-top:5%;
+    padding:10px;
+    background: skyblue ;
+    border:none;
+}
+@media screen and (max-width:650px){
+    body,html{
+        width:100%;
+        margin:auto;
+        background-color: #aaa;
+    }
+    form{
+        width:100%;
+        max-width: 300px;
+        margin:40px auto;
+        background-color: #eee;
+        padding:5% 3%;
+    }
+    .icon{
+        position: relative;
+        top:-70px;
+        margin:auto;
+        margin-bottom:-75px;
+        display:block;
+        text-align: center;
+    }
+}
